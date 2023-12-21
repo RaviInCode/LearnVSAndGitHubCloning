@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    #text{
+        position: absolute;
+        top: 10px;
+    }
+    
+    .outer-rectangle {
+        width: 500px;
+        height: 300px;
+        background-color: #8b8d8f; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #text1{
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+    }
+    .inner-rectangle {
+        width: 300px;
+        height: 150px;
+        background-color: #c0bdbc; 
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+<div class="outer-rectangle">
+    <h1 id="text">Parent Box</h1>
+
+    <div class="inner-rectangle">
+        <h3 id="text1">Child Box</h3>
+    </div>
+</div>
+
+</body>
+</html>
